@@ -41,6 +41,7 @@ variable "tagging" {
     network         = string
     organization    = string
     owner           = string
+    service_name    = optional(string, null)
     service_pattern = string
     tag_key_prefix  = string
   })
